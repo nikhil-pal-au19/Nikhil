@@ -1,0 +1,54 @@
+h1 {
+    color: rgb(7, 3, 3);
+    text-align: center;
+}
+
+#container {
+    height: 350px;
+    width: 400px;
+    background-color: rgb(212, 223, 120);
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 75px 75px 75px 75px ;
+    grid-template-areas: 
+    ". bill-amount"
+    ". tip-percentage"
+    ". tip-amount"
+    ". total-bill"
+    "btn btn";
+    margin: auto;
+    border: 5px solid #60c711;
+    padding: 30px;
+}
+
+#bill-amount {
+    grid-area: bill-amount;
+    height: 35px;
+    width: 300px;
+}
+
+#tip-percentage {
+    grid-area: tip-percentage;
+    height: 35px;
+    width: 300px;
+}
+
+#tip-amount {
+    grid-area: tip-amount;
+    height: 35px;
+    width: 300px;
+}
+
+#total-bill {
+    grid-area: total-bill;
+    height: 35px;
+    width: 300px;
+}
+
+#btn {
+    grid-area: btn;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    
+}
