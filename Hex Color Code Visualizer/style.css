@@ -1,0 +1,10 @@
+.hex{
+    background-color: rgb(39, 153, 173);
+    width: 800px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:18%;
+    border: 2px solid rgb(7, 2, 2);
+    text-align: center;
+}
